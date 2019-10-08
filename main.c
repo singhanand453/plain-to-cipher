@@ -8,9 +8,9 @@ int main()
 {
     char pt[100],ct[100];
     int key,i,length;
-    printf("Enter the plain text\n");
+    printf("Enter plain text\n");
     fgets(pt,100,stdin);
-    printf("Enter the key for encryption\n");
+    printf("Enter key for encryption\n");
     scanf("%d",&key);
     pt[strlen(pt)-1]='\0';
     length=(strlen(pt));
